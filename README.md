@@ -81,8 +81,7 @@ Notas:
 
 1. Abrir el directorio del proyecto `TiendaEnLinea/` en IntelliJ.
 2. Asegurarte de que `src/` está marcado como "Sources Root" (clic derecho > Mark Directory as > Sources Root).
-3. Abrir `co/tiendaenlinea/Main.java` y ejecutar la clase `Main` (botón ▶).
-
+3. Abrir `co/tiendaenlinea/Main.java` y ejecutar la clase `Main`.
 ## Uso del programa (flujo básico)
 
 Al ejecutar, verás el menú:
