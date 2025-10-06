@@ -12,7 +12,7 @@ public class Menu {
         int opcion = 0;
 
         do {
-            System.out.println("\n========= MENÚ TIENDA EN LÍNEA =========");
+            System.out.println("\n------ MENÚ TIENDA EN LÍNEA ------");
             System.out.println("1. Registrar cliente");
             System.out.println("2. Registrar producto");
             System.out.println("3. Crear pedido");
