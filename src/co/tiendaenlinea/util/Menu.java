@@ -43,6 +43,11 @@ public class Menu {
             } catch (NumberFormatException e) {
                 System.out.println("¡Error! debe ingresar un número válido.");
             }
+            finally {
+                if (opcion != 9) {
+                System.out.println("\n----------------¿Qué mas deseas hacer?---------------------\n");
+                }
+            }
 
         } while (opcion != 9);
 
@@ -119,6 +124,7 @@ public class Menu {
     private void listarClientes (Tienda tienda) {
         tienda.getClientes()
                 .forEach(System.out ::println);
+
     }
 
     private void mostrarNombres(Tienda tienda) {
